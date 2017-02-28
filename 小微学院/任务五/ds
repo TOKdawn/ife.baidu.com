@@ -1,0 +1,38 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style media="screen">
+    td{
+        border-color: #f44336;
+        border-style: dotted;
+    }
+</style>
+<body>
+    <table style="background-color:#ffebee">
+        <tr>
+            <th rowspan="2">sssss</th>
+            <td>sdsd</td>
+        </tr>
+        <tr>
+            <td>3</td>
+        </tr>
+
+
+
+<tr>
+  <th rowspan="3">µç»°</th>
+  <td>555 77 854</td>
+
+</tr>
+<tr>
+  <td>555 77 855</td>
+</tr>
+<tr>
+  <td>555 77 855</td>
+</tr>
+    </table>
+
+</body>
+</html>
