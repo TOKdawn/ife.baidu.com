@@ -1,0 +1,199 @@
+.site__title {
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+}
+.titback{
+    background-color: #fe5626;
+    width: 7.5%;
+    font-size: 70px;
+    margin-left: 42.5%;
+    margin-top:5%;
+
+}
+.chaptercss_1{
+    background-image:#fff;
+    /*background-image: url(./img/wulianwa.png);
+    background-position: 100% 0%;
+    background-size: 50% 90%;
+    background-clip: padding-box;*/
+}
+.nextbut_1{
+    position: absolute;
+margin-top: 335px;
+margin-left: 975px;
+    width:50px;
+   height:100px;
+   border-radius:50px 0 0 50px;
+   background:#3a3a3a;
+   opacity:0.50;
+   padding-top: 20px;
+
+}
+.nextbut_2{
+    position: absolute;
+margin-top: 335px;
+
+    width:50px;
+   height:100px;
+   border-radius:0px 50px 50px 0px;
+   background:#3a3a3a;
+   opacity:0.50;
+   padding-top: 20px;
+
+}
+.min_1{
+    color: #4aaeeb;
+    font-size: 100px;
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 640px;
+
+}
+.next_1{
+    margin-left: 15px;
+
+}
+.next_2{
+    margin-left: 5px;
+
+}
+
+.dierzhang{
+    color: #4aaeeb;
+    font-size: 100px;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 640px;
+
+}
+.dierzhang_2{
+    color: #4aaeeb;
+    font-size: 90px;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 620px;
+
+}
+.background_1_1{
+    background-image: url(./img/timg.jpg);
+    background-repeat: no-repeat;
+}
+.background_1_3{
+    background-image: url(./img/people.jpg);
+    background-repeat: no-repeat;
+}
+.background_1_2{
+    background-image: url(./img/pczhuban.jpg);
+    background-repeat: no-repeat;
+}
+.background_1_4{
+    background-image: url(./img/tainhe.jpg);
+    background-repeat: no-repeat;
+}
+
+.mengban{
+    width: 100%;
+    height: 100%;
+    background:#000;  opacity:0.8;
+}
+.biaoti{
+
+    position: absolute;
+    font-size: 80px;
+    margin-left: 100px;
+    margin-top: 150px;
+    border-width: 5px;
+    border-style: inset;
+    padding: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgba(255, 255, 255, 0.31);
+    opacity:1;
+}
+.color_4{
+    color: #5fc4df;
+
+}
+.color_1{
+    color: #bb5c5d;
+
+}
+.color_2{
+    color: #a8b65d;
+
+}
+.color_3{
+    color: #f4cb5f;
+
+}
+.shuoming{
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 400px;
+    width: 342px;
+}
+.zpyh1_1{
+    width: 800px;
+    border-style: solid;
+    border-width: 10px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    margin-top: 50px;
+    font-size: 60px;
+    margin: 0px;
+    padding: 30px;
+    border-color: #5aaeeb;
+    color: #313131;
+
+}
+.zpyhed1_1{
+
+    width: 900px;
+    height: 102px;
+    font-size: 20px;
+    color: #313131;
+}
+.zpymain1_1{
+    margin-top: -20px;
+    width: 356px;
+    height: 430px;
+    font-size: 20px;
+    color: #756f6f;
+}
+.class_1_1_1{
+    padding-left: 104px;
+
+    padding-top: 30px;
+
+
+}
+.zpyeniac{
+    position: absolute;
+    margin-top: -430px;
+    margin-left: 386px;
+}
+.zpyENIAC{
+    font-size: 120px;
+    color: #5aaeeb;
+    float: left;
+
+}
+.background1_1_3{
+    background: url(./img/head1.png),url(./img/main1.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 30px,0px 270px;
+
+}
+.zi1_1_3{
+    font-size: 30px;
+    color: #756f6f;
+    margin-top: 130px;
+    padding: 30px;
+
+}

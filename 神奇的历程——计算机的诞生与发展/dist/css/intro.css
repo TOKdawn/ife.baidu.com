@@ -1,0 +1,205 @@
+
+
+a { color: #666; text-decoration:none; }
+a:hover { color: #f60; text-decoration:none; }
+
+.main {
+    width: 982px;
+    height: 668px;
+    margin-top: 50px;
+    margin-left: 20px;
+    /*border: 1px solid black;*/
+}
+.topWord {
+    width: 800px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 60px;
+    /*border: 1px solid black;*/
+}
+.topWord>p>big {
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:30px;
+}
+.topWord>p>small {
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:20px;
+    line-height: 30px;
+}
+.personInt {
+    width: 942px;
+    height: 430px;
+    margin-top: 5px;
+    margin-left: 20px;
+    /*border: 1px solid black;*/
+}
+.person1 {
+    width: 230px;
+    height: 400px;
+    margin-top: 5px;
+    margin-left: 2px;
+    border: 1px solid blue;
+    float: left;
+}
+.person2 {
+    width: 230px;
+    height: 400px;
+    margin-top: 5px;
+    margin-left: 2px;
+    border: 1px solid green;
+    float: left;
+}
+.person3 {
+    width: 230px;
+    height: 400px;
+    margin-top: 5px;
+    margin-left: 2px;
+    border: 1px solid orange;
+    float: left;
+}
+.person4 {
+    width: 230px;
+    height: 400px;
+    margin-top: 5px;
+    margin-left: 2px;
+    border: 1px solid pink;
+    float: left;
+}
+.personImg1 {
+    height: 150px;
+    width: 150px;
+    border: 3px solid blue;
+    border-radius: 75px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.personImg2 {
+    height: 150px;
+    width: 150px;
+    border: 3px solid green;
+    border-radius: 75px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.personImg3 {
+    height: 150px;
+    width: 150px;
+    border: 3px solid orange;
+    border-radius: 75px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.personImg4 {
+    height: 150px;
+    width: 150px;
+    border: 3px solid pink;
+    border-radius: 75px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.personWord1 {
+    height: 150px;
+    width: 200px;
+    /*border: 1px solid black;*/
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.personWord2 {
+    height: 150px;
+    width: 200px;
+    /*border: 1px solid black;*/
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.personWord3 {
+    height: 150px;
+    width: 200px;
+    /*border: 1px solid black;*/
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.personWord4 {
+    height: 150px;
+    width: 200px;
+    /*border: 1px solid black;*/
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.personName {
+    font-family:Arial,Helvetica,sans-serif;
+    font-weight:bold;
+    font-size: 18px;
+    text-align: center;
+}
+.personInfo {
+    margin-top: 30px;
+    margin-left: 38px;
+}
+.personBir {
+    font-family:Arial,Helvetica,sans-serif;
+    text-align: center;
+}
+.personImg1>img {
+    height: 140px;
+    width: 140px;
+    border-radius: 70px;
+    margin: 5px;
+}
+.personImg2>img {
+    height: 140px;
+    width: 140px;
+    border-radius: 70px;
+    margin: 5px;
+}
+.personImg3>img {
+    height: 140px;
+    width: 140px;
+    border-radius: 70px;
+    margin: 5px;
+}
+.personImg4>img {
+    height: 140px;
+    width: 140px;
+    border-radius: 70px;
+    margin: 5px;
+}
+.footer {
+    height: 10px;
+    width: 1000px;
+    margin-left: 12px;
+    margin-top: 40px;
+    /*border: 1px solid black;*/
+}
+.footColor1 {
+    height: 10px;
+    width: 200px;
+    background-color: blue;
+    float: left;
+}
+.footColor2 {
+    height: 10px;
+    width: 200px;
+    background-color: red;
+    float: left;
+}
+
+.footColor3 {
+    height: 10px;
+    width: 200px;
+    background-color: green;
+    float: left;
+}
+
+.footColor4 {
+    height: 10px;
+    width: 200px;
+    background-color: yellow;
+    float: left;
+}
+
+.footColor5 {
+    height: 10px;
+    width: 200px;
+    background-color: grey;
+    float: left;
+}

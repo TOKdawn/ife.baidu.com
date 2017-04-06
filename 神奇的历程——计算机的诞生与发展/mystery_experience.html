@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8">
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="./dist/css/swiper.css">
+    <link rel="stylesheet" href="./Font-Awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./dist/css/zpy.css">
+    <link rel="stylesheet" href="./dist/css/1_3.css">
+    <link rel="stylesheet" href="./dist/css/1_4.css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./dist/css/intro.css">
+    <!-- Demo styles -->
+    <style>
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        /*text-align: center;
+        font-size: 18px;
+
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;*/
+    }
+    </style>
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container" id="chapter">
+        <div class="swiper-wrapper">
+            <!-- 最外层 -->
+            <div class="swiper-slide ">
+                <!-- 第一章  -->
+                <div class="swiper-container "id="chapeter_1">
+                    <div class="swiper-wrapper">
+
+                        <!-- 第一章欢迎页 -->
+                        <div class="swiper-slide  one">
+
+                                            <div class="min_1">计算机<br>历史</div>
+                                            <div class="nextbut_1" onclick="swChapter.slideNext()"><i class="fa fa-angle-right next_1 fa-5x" ></i></div>
+
+
+
+                        </div>
+                        <!-- 第一章欢迎页 -->
+
+                        <!-- 第一章第一课 -->
+                        <div class="swiper-slide">
+                            <div class="swiper-container"id="courses_1_1">
+                                <div class="swiper-wrapper">
+
+
+                                    <!-- 第一课内容 -->
+                                    <div class="swiper-slide background_1_1">
+                                        <div class="mengban">
+                                            <p class="biaoti color_4">计算机<br>发展过程&nbsp</p>
+                                            <div class="shuoming">在人类发展史上，计算工具的发展经历了从简单到复杂，从低级到高级的过程比如：算盘、计算尺和机械计算机等，这些计算工具在不同的历史时期都发挥了各自的作用，同时也为现代电子计算机的产生奠定了一定的基础。</div>
+                                        </div>
+
+
+
+
+
+
+                                    </div>
+
+                                    <div class="swiper-slide ">
+                                        <div class="class_1_1_1">
+                                        <p class="zpyh1_1">世界上的第一台计算机</p>
+                                        <p class="zpyhed1_1">
+                                            1946年2月，世界上第一台全自动电子数字计算机ENIAC（即Electronic Numerical Integrator and Calculator，电子数字积分器和计算器）在美国研制成功，它是为解决弹道计算问题而研制的.主要发明人是电气工程师普雷斯波·艾克特（J. Prespen Eckert）和物理学家约翰·莫奇勒博士（John W. Mauchly）
+                                        </p>
+                                        <p class="zpymain1_1">
+                                            <h class="zpyENIAC">ENIAC</h>
+                                            是一个庞然大物，它占地170平方米、重量30吨，共使用了18800只电子管、10000只电容、
+                                            7000只电阻，耗电140～150千瓦。ENIAC每秒可进行5000次加减运算，虽然其速度远不及现在最普通的微型计算机，
+                                            但它的问世却具有划时代的意义，标志着计算机时代的到来。在以后的60多年里，计算机及其相关技术的发展真可谓日新月异，是人类科技史上发展速度最快的学科。
+                                        </p>
+                                        <img src="./img/timg1.png" class="zpyeniac">
+                                    </div>
+
+
+
+
+                                    </div>
+
+                                    <div class="swiper-slide background1_1_3">
+                                        <p class="zi1_1_3">
+                                            从ENIAC诞生至今，计算机技术的发展速度相当“迅猛”。根据计算机所采用的主要元件，一将其发展分为四个阶段，相应的将计算机分为四代。
+                                        </p>
+                                    </div>
+
+                                    <div class="swiper-slide background1_1_4">
+
+                                    </div>
+                                    <!-- 第一课内容 -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 第一章第一课 -->
+
+                        <!-- 第一章第二课     -->
+
+                            <div class="swiper-slide">
+                                <div class="swiper-container"id="courses_1_2">
+                                    <div class="swiper-wrapper">
+
+                                        <!-- 第二课内容 -->
+                                        <div class="swiper-slide background_1_2">
+
+                                            <div class="mengban">
+                                                <p class="biaoti color_1">计算机<br>突出特点&nbsp</p>
+                                                <div class="shuoming">与其它计算工具相比，计算机具有运算速度快、精确度高、存储能力强、通用性强的特点，并且具有逻辑判断能力、自动功能、以及支持网络通信等功能特点。</div>
+                                            </div>
+
+
+
+
+
+                                        </div>
+
+                                        <div class="swiper-slide">第一章第二课第二节</div>
+
+                                        <!-- 第二课内容 -->
+
+                                    </div>
+                                </div>
+                            </div>
+
+                         <!-- 第一章第二课-->
+
+                         <!-- 第一章第三课     -->
+
+                             <div class="swiper-slide">
+                                 <div class="swiper-container"id="courses_1_3">
+                                     <div class="swiper-wrapper">
+
+
+                                         <!-- 第三课内容 -->
+                                         <div class="swiper-slide background_1_3">
+
+                                             <div class="mengban">
+                                                 <p class="biaoti color_2">计算机<br>奠基者们&nbsp</p>
+                                                 <div class="shuoming">电子计算机是人类智慧的结晶，是科学发展的必然产物，但是没有天才的头脑和坚毅的精神就不会有今天蓬勃发展的计算机产业，让我们永远纪念那些为科技进步献身的人们。</div>
+                                             </div>
+
+
+
+
+
+                                         </div>
+
+                                         <div class="swiper-slide">
+
+
+                                             <div class="main">
+                                                 <div class="topWord">
+                                                     <p><big>为计算机的诞生做出过杰出的贡献</big></p>
+                                                     <br>
+                                                     <p><small>
+                                                         电子计算机是人类智慧的结晶，是科学发展的必然产物，但是没有天才的头脑和坚毅的精神就不会有今天蓬勃发展的计算机产业，让我们永远纪念那些为科技进步献身的人们。
+                                                     </small></p>
+                                                 </div>
+                                                 <div class="personInt">
+                                                     <div class="person1">
+                                                         <div class="personImg1">
+                                                             <img src="./img/babeiqi.png" alt="">
+                                                         </div>
+                                                         <div class="personWord1">
+                                                             <p class="personName">查尔斯·巴贝奇</p>
+                                                             <p class="personBir">(Charles Babbage 1792- 1871)</p>
+                                                             <input type="button" value="点击这里查看人物介绍" onclick="firstClick();" class="personInfo"/>
+                                                         </div>
+                                                         <p class="personBir">想出了计算机的雏形</p>
+                                                     </div>
+                                                     <div class="person2">
+                                                         <div class="personImg2">
+                                                             <img src="./img/ada.png" alt="">
+                                                         </div>
+                                                         <div class="personWord2">
+                                                             <p class="personName">阿达·洛普雷斯</p>
+                                                             <p class="personBir">(Ada Lovelace 1815-1852)</p>
+                                                             <input type="button" value="点击这里查看人物介绍" onclick="secClick();" class="personInfo"/>
+                                                         </div>
+                                                         <p class="personBir">计算机之母</p>
+                                                     </div>
+                                                     <div class="person3">
+                                                         <div class="personImg3">
+                                                             <img src="./img/tuling.png" alt="">
+                                                         </div>
+                                                         <div class="personWord3">
+                                                             <p class="personName">阿兰·图灵</p>
+                                                             <p class="personBir">(Alan Turing 1912-1954)</p>
+                                                             <input type="button" value="点击这里查看人物介绍" onclick="thirdClick();" class="personInfo"/>
+                                                         </div>
+                                                         <p class="personBir">计算机科学之父、人工智能之父</p>
+                                                     </div>
+                                                     <div class="person4">
+                                                         <div class="personImg4">
+                                                             <img src="./img/feng.png" alt="">
+                                                         </div>
+                                                         <div class="personWord4">
+                                                             <p class="personName">约翰·冯·诺依曼</p>
+                                                             <p class="personBir">(John Von Nouma，1903-1957)</p>
+                                                             <input type="button" value="点击这里查看人物介绍" onclick="fourClick();" class="personInfo"/>
+                                                         </div>
+                                                         <p class="personBir">计算机之父</p>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                             <div class="footer">
+                                                 <div class="footColor1"></div>
+                                                 <div class="footColor2"></div>
+                                                 <div class="footColor3"></div>
+                                                 <div class="footColor4"></div>
+                                                 <div class="footColor5"></div>
+                                             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                         </div>
+
+                                         <!-- 第三课内容 -->
+
+                                     </div>
+                                 </div>
+                             </div>
+
+                          <!-- 第一章第三课-->
+                          <div class="swiper-slide">
+                              <div class="swiper-container"id="courses_1_4">
+                                  <div class="swiper-wrapper">
+
+
+                                      <!-- 第三课内容 -->
+                                      <div class="swiper-slide background_1_4">
+
+                                          <div class="mengban">
+                                              <p class="biaoti color_3">计算机<br>各种样式&nbsp</p>
+                                              <div class="shuoming">如今，计算机在人们生活的各个领域发挥着重要的作用。计算机也发展出了十分多的种类,让我带你了解下那些在我们身边发挥着重要作用的各种计算机</div>
+                                          </div>
+
+
+
+                                      </div>
+
+                                      <div class="swiper-slide">第一章第四课第二节</div>
+
+                                      <!-- 第三课内容 -->
+
+                                  </div>
+                              </div>
+                          </div>
+
+
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"id="courses_1b"></div>
+                    <!-- 第一章进度 -->
+                </div>
+            </div>
+
+
+
+            <div class="swiper-slide ">
+                <!-- 第二章  -->
+                <div class="swiper-container"id="chapeter_2">
+                    <div class="swiper-wrapper ">
+
+                        <div class="swiper-slide two">
+
+                            <div class="dierzhang_2 color_1">
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp未来<br>发展趋势
+                            </div>
+                            <div class="nextbut_2" onclick="swChapter.slidePrev()"><i class="fa fa-angle-left next_2 fa-5x" ></i></div>
+
+                                <div class="nextbut_1" onclick="swChapter.slideNext()"><i class="fa fa-angle-right next_1 fa-5x" ></i></div>
+
+                        </div>
+
+                        <!-- 第二章第一课 -->
+                        <div class="swiper-slide">
+                            <div class="swiper-container"id="courses_2_1">
+                                <div class="swiper-wrapper">
+
+                                    <!-- 第一课内容 -->
+                                    <div class="swiper-slide ">第二章第一课第一节</div>
+
+                                    <div class="swiper-slide">第二章第一课第二节</div>
+
+
+                                    <!-- 第一课内容 -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 第二章第一课 -->
+
+                        <!-- 第二章第二课 -->
+                        <div class="swiper-slide">
+                            <div class="swiper-container"id="courses_2_2">
+                                <div class="swiper-wrapper">
+
+
+                                    <!-- 第二课内容 -->
+                                    <div class="swiper-slide">第二章第二课第一节</div>
+
+                                    <div class="swiper-slide">第二章第二课第二节</div>
+
+                                    <div class="swiper-slide">第二章第二课第三节</div>
+                                    <!-- 第二课内容 -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 第二章第二课 -->
+
+                    </div>
+                    <!-- Add Pagination -->
+
+                    <!-- 第二章进度 -->
+                </div>
+            </div>
+
+            <div class="swiper-slide ">
+
+                <!-- 第三章 -->
+
+
+
+                <div class="swiper-container"id="chapeter_3">
+                    <div class="swiper-wrapper ">
+
+                        <div class="swiper-slide three">
+
+                            <div class="dierzhang color_2">
+                                物联网<br>云计算
+                            </div>
+                            <div class="nextbut_2" onclick="swChapter.slidePrev()"><i class="fa fa-angle-left next_2 fa-5x" ></i></div>
+
+                        </div>
+
+                        <!-- 第二章第一课 -->
+                        <div class="swiper-slide">
+                            <div class="swiper-container"id="courses_3_1">
+                                <div class="swiper-wrapper">
+
+
+                                    <!-- 第一课内容 -->
+                                    <div class="swiper-slide fater1-3">
+
+                                        <div class="t1_3main">
+                                            <div class="t1_3Title">
+                                                <div class="t1_3TitleLogo"></div>
+                                                <div class="t1_3Title1">
+                                                    <p>&nbsp;什么是物联网</p>
+                                                    <small>&nbsp;&nbsp;“物联网”就是物物相连的互联网</small>
+                                                </div>
+                                                <p></p>
+                                            </div>
+                                            <div class="t1_3TInfo1">
+                                                <p>&nbsp;&nbsp;&nbsp;“物联网”就是物物相连的互联网，是通过射频识别（RFID）、红外感应器、全球定位系统、激光扫描器等信息传感设备，按约定的协议，把任何物品与互联网相连接，进行信息交换和通信，以实现对物品的智能化识别、定位、跟踪、监控和管理的一种网络，如图1.21所示。国际电信联盟于2005年的报告曾描绘“物联网”时代的图景：当司机出现操作失误时汽车会自动报警；公文包会提醒主人忘带了什么东西；衣服会“告诉”洗衣机对颜色和水温的要求等等。物联网在物流领域内的应用则比如：一家物流公司应用了物联网系统的货车，当装载超重时，汽车会自动告诉你超载了，并且超载多少，但空间还有剩余，告诉你轻重货怎样搭配；当搬运人员卸货时，一只货物包装可能会大叫“你扔疼我了”，或者说“亲爱的，请你不要太野蛮，可以吗？”；当司机在和别人扯闲话时，货车会装作老板的声音怒吼“笨蛋，该发车了！” </p>
+                                            </div>
+                                            <hr>
+                                            <div class="t1_3Bottom">
+                                                <div class="t1_3Img">
+                                                    <img src="./img/wulianwang.jpeg" alt="物联网">
+                                                </div>
+                                                <div class="t1_3FInfo2_1">
+                                                    <div class="t1_3FInfo2_1Top">
+                                                        <big>物联网</big>
+                                                        <p>The Internet of things</p>
+                                                    </div>
+                                                    <div class="t1_3FInfo2_1Bottom">
+                                                        <p>物联网把新一代IT技术充分运用在各行各业之中.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="t1_3FInfo2_2">
+                                                    <p>&nbsp;&nbsp;&nbsp;具体地说，就是把感应器嵌入和装备到电网、铁路、桥梁、隧道、公路、建筑、供水系统、大坝、油气管道等各种物体中，然后将“物联网”与现有的互联网整合起来，实现人类社会与物理系统的整合，在这个整合的网络当中，存在能力超级强大的中心计算机群，能够对整合网络内的人员、机器、设备和基础设施实施实时的管理和控制，在此基础上，人类可以以更加精细和动态的方式管理生产和生活，达到“智慧”状态，提高资源利用率和生产力水平，改善人与自然间的关系。</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+                                    </div>
+
+
+
+
+                                    <!-- 第一课内容 -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 第二章第一课 -->
+
+                        <!-- 第二章第二课 -->
+                        <div class="swiper-slide">
+                            <div class="swiper-container"id="courses_3_2">
+                                <div class="swiper-wrapper">
+
+
+                                    <!-- 第二课内容 -->
+                                    <div class="swiper-slide fater1-3">
+
+
+
+                                        <div class="t1_3main">
+                                            <div class="t1_3Title">
+                                                <div class="t1_3TitleLogo"></div>
+                                                <div class="t1_3Title1">
+                                                    <p>&nbsp;什么是云计算</p>
+                                                    <small>&nbsp;&nbsp;云计算是一种基于因特网的超级计算模式</small>
+                                                </div>
+                                                <p></p>
+                                            </div>
+                                            <div class="t1_3TInfo1">
+                                                <p>&nbsp;&nbsp;&nbsp;你是否曾想到，电脑可能会“消失”，不用背着笔记本出差，你的家里也没有电脑需要维修。是云计算改变了这一切。尽管云计算的兴起只是近两年的事，但其来势非常凶猛。那么，什么是云计算？它将会怎样改变我们的生活？ </p>
+                                                <p>&nbsp;&nbsp;&nbsp;云计算是一种基于因特网的超级计算模式，在远程的数据中心，几万甚至几千万台电脑和服务器连接成一片。因此，云计算甚至可以让你体验每秒超过10万亿次的运算能力，如此强大的运算能力几乎无所不能。云其实是网络、互联网的一种比喻说法。如图1.22所示，云计算会改变现在电脑“机箱+显示器”的模式。云计算虽然是近两年才兴起，但很多属于其范畴的应用早已实现，比如我们最熟悉的电子邮件。作为用户，我们既不关心、也不知道我们的电子邮件到底被存放在哪一个城市、哪一台计算中，我们知道的是，只要能上网，无论在北京、上海或是纽约，我们都能进入邮箱、收发邮件。这使得我们没有必要在现实中去购买或租用一个真正的实体邮箱。 </p>
+                                            </div>
+                                            <hr>
+                                            <div class="t1_3Bottom">
+                                                <div class="t1_3Img">
+                                                    <img src="./img/yunjisuan.png" alt="物联网">
+                                                </div>
+                                                <div class="t1_3FInfo2_1">
+                                                    <div class="t1_3FInfo2_1Top">
+                                                        <big>云计算</big>
+                                                        <p>Cloud Computing</p>
+                                                    </div>
+                                                    <div class="t1_3FInfo2_1Bottom">
+                                                        <p>虚拟化是云计算应用的重要方面。</p>
+                                                    </div>
+                                                </div>
+                                                <div class="t1_3FInfo2_2">
+                                                    <p>&nbsp;&nbsp;&nbsp;虚拟化是云计算应用的重要方面。比如，企业拥有一台超级计算机，可以将其分做1000台“虚拟计算机”，租给用户。通过网络，用户就可以使用这台“计算机”，家里的电视、随身携带的移动电视、手机的屏幕，都可以作为显示器使用，而不必再去购买一台实体计算机带着。像电子邮件一样，不管在任何地方，只要有网络，这台虚拟计算机便始终在身边。目前，“云计算”实现的各种新服务越来越受到人们关注，其应用产品也已深入人们的日常生活。</p>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                    </div>
+
+                                    <!-- 第二课内容 -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 第二章第二课 -->
+
+                    </div>
+                    <!-- Add Pagination -->
+
+                    <!-- 第二章进度 -->
+                </div>
+
+
+
+
+            </div>
+
+
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination" id="chapterb"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="./dist/js/swiper.min.js"></script>
+    <script src="./jquery-3.2.0.min.js"></script>
+
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swChapter = new Swiper('#chapter', {
+        pagination: '#chapterb',
+        onlyExternal : true,
+        // paginationClickable: true,
+        grabCursor:false,
+         effect : 'fade',
+         
+        //shortSwipes : false,
+    });
+    var swChapter_1 = new Swiper('#chapeter_1', {
+        pagination: '#chapeter_1b',
+        paginationClickable: true,
+        direction: 'vertical',
+        shortSwipes : false,
+        // effect : 'cube',
+        // touchRatio :-1,
+        // initialSlide :3,
+
+    });
+    var swchapeter_2 = new Swiper('#chapeter_2', {
+        pagination: '#chapeter_2b',
+        paginationClickable: true,
+        direction: 'vertical',
+        shortSwipes : false,
+        // effect : 'cube',
+        // touchRatio :-1,
+        // initialSlide :3,
+
+    });
+    var swchapeter_2 = new Swiper('#chapeter_3', {
+        pagination: '#chapeter_3b',
+        paginationClickable: true,
+        direction: 'vertical',
+        shortSwipes : false,
+        // effect : 'cube',
+        // touchRatio :-1,
+        // initialSlide :3,
+
+    });
+    var swcourses_1_1 = new Swiper('#courses_1_1', {
+        // pagination: '#text1b',
+        paginationClickable: true,
+        // direction: 'vertical',
+        // touchRatio :-1,
+        // effect : 'cube',
+        // initialSlide :3,
+    });
+    var swcourses_1_2 = new Swiper('#courses_1_2', {
+        // pagination: '#text1b',
+        paginationClickable: true,
+        // direction: 'vertical',
+        // touchRatio :-1,
+        // effect : 'cube',
+        // initialSlide :3,
+    });
+    var swcourses_1_3 = new Swiper('#courses_1_3', {
+        // pagination: '#text1b',
+        paginationClickable: true,
+        // direction: 'vertical',
+        // touchRatio :-1,
+        // effect : 'cube',
+        // initialSlide :3,
+    });
+    var swcourses_1_3 = new Swiper('#courses_1_4', {
+        // pagination: '#text1b',
+        paginationClickable: true,
+        // direction: 'vertical',
+        // touchRatio :-1,
+        // effect : 'cube',
+        // initialSlide :3,
+    });
+    var swcourses_2_1 = new Swiper('#courses_2_1', {
+        // pagination: '#text1b',
+        paginationClickable: true,
+        // direction: 'vertical',
+        // touchRatio :-1,
+        // effect : 'cube',
+        // initialSlide :3,
+    });
+    var swcourses_2_2 = new Swiper('#courses_2_2', {
+        // pagination: '#text1b',
+        paginationClickable: true,
+        // direction: 'vertical',
+        // touchRatio :-1,
+        // effect : 'cube',
+        // initialSlide :3,
+    });
+    var swcourses_3_1 = new Swiper('#courses_3_1', {
+        // pagination: '#text1b',
+        paginationClickable: true,
+        // direction: 'vertical',
+        // touchRatio :-1,
+        // effect : 'cube',
+        // initialSlide :3,
+    });
+    var swcourses_3_2 = new Swiper('#courses_3_2', {
+        // pagination: '#text1b',
+        paginationClickable: true,
+        // direction: 'vertical',
+        // touchRatio :-1,
+        // effect : 'cube',
+        // initialSlide :3,
+    });
+    </script>
+    <script type="text/javascript" src="./dist/js/intro.js"></script>
+</body>
+</html>
