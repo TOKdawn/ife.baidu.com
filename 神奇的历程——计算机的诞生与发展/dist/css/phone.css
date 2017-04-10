@@ -1,0 +1,81 @@
+.tphoneMain {
+    height: 768px;
+    width: 1024px;
+}
+.tpnhoneStra {
+    margin-left: 102.4px;
+    margin-top: 273px;
+    height: 15px;
+    width: 819.2px;
+    background: white;
+    z-index: 9999;
+    position: absolute;
+}
+.tpnhone1 {
+    margin: 0;
+    height: 1024px;
+    width: 256px;
+    background-color: #4cccb8;
+    float: left;
+}
+.tpnhone2 {
+    margin: 0;
+    height: 1024px;
+    width: 256px;
+    background-color: #9acb4f;
+    float: left;
+}
+.tpnhone3 {
+    margin: 0;
+    height: 1024px;
+    width: 256px;
+    background-color: #e7ba4f;
+    float: left;
+}
+.tpnhone4 {
+    margin: 0;
+    height: 1024px;
+    width: 256px;
+    background-color: #3e4148;
+    float: left;
+}
+.tphoneTop>img  {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+.tphoneTop {
+    height: 150px;
+    width: 150px;
+    margin-left: 53px;
+    margin-top: 70px;
+    border-radius: 75px;
+    background-color: white;
+}
+.tphoneMid{
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 98px;
+    border-radius: 30px;
+    background-color: white;
+}
+.tpnhoneInfo {
+    height: 250px;
+    width: 200px;
+    margin-left: 28px;
+    margin-top: 10px;
+
+}
+.tpnhoneInfo>p {
+    text-align: center;
+    color: white;
+    font-family:Arial,Helvetica,sans-serif;
+
+}
+.tpnhoneInfo>p>big {
+    font-size: 25px;
+}
+.tpnhoneInfo>p>small{
+    font-size: 20px;
+}

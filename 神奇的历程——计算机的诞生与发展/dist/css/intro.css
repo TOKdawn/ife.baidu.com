@@ -38,7 +38,7 @@ a:hover { color: #f60; text-decoration:none; }
     height: 400px;
     margin-top: 5px;
     margin-left: 2px;
-    border: 1px solid blue;
+    border: 1px solid #61b395;
     float: left;
 }
 .person2 {
@@ -46,7 +46,7 @@ a:hover { color: #f60; text-decoration:none; }
     height: 400px;
     margin-top: 5px;
     margin-left: 2px;
-    border: 1px solid green;
+    border: 1px solid #94ad55;
     float: left;
 }
 .person3 {
@@ -54,7 +54,7 @@ a:hover { color: #f60; text-decoration:none; }
     height: 400px;
     margin-top: 5px;
     margin-left: 2px;
-    border: 1px solid orange;
+    border: 1px solid #cca73d;
     float: left;
 }
 .person4 {
@@ -62,13 +62,13 @@ a:hover { color: #f60; text-decoration:none; }
     height: 400px;
     margin-top: 5px;
     margin-left: 2px;
-    border: 1px solid pink;
+    border: 1px solid #dd7d52;
     float: left;
 }
 .personImg1 {
     height: 150px;
     width: 150px;
-    border: 3px solid blue;
+    border: 5px solid #61b395;
     border-radius: 75px;
     margin-top: 40px;
     margin-left: 40px;
@@ -76,7 +76,7 @@ a:hover { color: #f60; text-decoration:none; }
 .personImg2 {
     height: 150px;
     width: 150px;
-    border: 3px solid green;
+    border: 5px solid #94ad55;
     border-radius: 75px;
     margin-top: 40px;
     margin-left: 40px;
@@ -84,7 +84,7 @@ a:hover { color: #f60; text-decoration:none; }
 .personImg3 {
     height: 150px;
     width: 150px;
-    border: 3px solid orange;
+    border: 5px solid #cca73d;
     border-radius: 75px;
     margin-top: 40px;
     margin-left: 40px;
@@ -92,7 +92,7 @@ a:hover { color: #f60; text-decoration:none; }
 .personImg4 {
     height: 150px;
     width: 150px;
-    border: 3px solid pink;
+    border: 5px solid #dd7d52;
     border-radius: 75px;
     margin-top: 40px;
     margin-left: 40px;
@@ -167,39 +167,39 @@ a:hover { color: #f60; text-decoration:none; }
     height: 10px;
     width: 1000px;
     margin-left: 12px;
-    margin-top: 40px;
+    margin-top: 20px;
     /*border: 1px solid black;*/
 }
 .footColor1 {
     height: 10px;
     width: 200px;
-    background-color: blue;
+    background-color: #60c4e0;
     float: left;
 }
 .footColor2 {
     height: 10px;
     width: 200px;
-    background-color: red;
+    background-color: #c8565d;
     float: left;
 }
 
 .footColor3 {
     height: 10px;
     width: 200px;
-    background-color: green;
+    background-color: #a5b666;
     float: left;
 }
 
 .footColor4 {
     height: 10px;
     width: 200px;
-    background-color: yellow;
+    background-color: #fcce5f;
     float: left;
 }
 
 .footColor5 {
     height: 10px;
     width: 200px;
-    background-color: grey;
+    background-color: #bfbfbf;
     float: left;
 }

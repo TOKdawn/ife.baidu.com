@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8" />
+  <title>NB</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="./dist/css/swiper.css" />
+  <link rel="stylesheet" href="./Font-Awesome/css/font-awesome.css" />
+  <link rel="stylesheet" href="./dist/css/zpy.css" />
+  <link rel="stylesheet" href="./dist/css/1_3.css" />
+  <link rel="stylesheet" href="./dist/css/1_4.css" />
+  <link rel="stylesheet" href="./dist/css/phone.css" />
+  <link rel="stylesheet" href="./dist/css/pad.css" />
+  <link rel="stylesheet" type="text/css" href="./dist/css/question.css" />
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./dist/css/intro.css" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-touch-fullscreen" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <!-- Demo styles -->
+  <style>
+
+
+    .demo{margin-top:70px}
+    .tip{width:120px; padding:10px; border:1px solid #ffecb0; background-color:#fffee0; position:absolute; margin-left:750px; top:124px;}
+    #nav{width:720px; height:42px; position:absolute; margin-left:20px; border:1px solid #d3d3d3; background:#f7f7f7;-moz-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; }
+    .shadow{-moz-box-shadow:1px 1px 2px rgba(0,0,0,.2); -webkit-box-shadow:1px 1px 2px rgba(0,0,0,.2); box-shadow:1px 1px 2px rgba(0,0,0,.2);}
+    #nav li{float:left; height:42px; line-height:42px; padding:0 10px; border-right:1px solid #d3d3d3; font-size:14px; font-weight:bold}
+    #nav li.current{background:#f1f1f1; border-top:1px solid #f60}
+    #nav li a{text-decoration:none;}
+    #nav li.current a{color:#333}
+    #nav li a:hover{color:#f30}
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        /*text-align: center;
+        font-size: 18px;
+
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;*/
+    }
+    </style>
+ </head>
+ <body>
+  <!-- Swiper -->
+  <div class="swiper-container" id="chapter">
+   <div class="swiper-wrapper">
+    <!-- 最外层 -->
+    <div class="swiper-slide ">
+     <!-- 第一章  -->
+     <div class="swiper-container " id="chapeter_1">
+      <div class="swiper-wrapper">
+       <!-- 第一章欢迎页 -->
+       <div class="swiper-slide  one">
+        <div class="min_1">
+         计算机
+         <br />历史
+        </div>
+        <div class="nextbut_1" onclick="swChapter.slideNext()">
+         <i class="fa fa-angle-right next_1 fa-5x"></i>
+        </div>
+       </div>
+       <!-- 第一章欢迎页 -->
+       <!-- 第一章第一课 -->
+       <div class="swiper-slide">
+        <div class="swiper-container" id="courses_1_1">
+         <div class="swiper-wrapper">
+          <!-- 第一课内容 -->
+          <div class="swiper-slide background_1_1">
+           <div class="mengban">
+            <p class="biaoti color_4">计算机<br />发展过程&nbsp;</p>
+            <div class="shuoming">
+             在人类发展史上，计算工具的发展经历了从简单到复杂，从低级到高级的过程比如：算盘、计算尺和机械计算机等，这些计算工具在不同的历史时期都发挥了各自的作用，同时也为现代电子计算机的产生奠定了一定的基础。
+            </div>
+           </div>
+          </div>
+          <div class="swiper-slide ">
+           <div class="class_1_1_1">
+            <p class="zpyh1_1">世界上的第一台计算机</p>
+            <p class="zpyhed1_1"> 1946年2月，世界上第一台全自动电子数字计算机ENIAC（即Electronic Numerical Integrator and Calculator，电子数字积分器和计算器）在美国研制成功，它是为解决弹道计算问题而研制的.主要发明人是电气工程师普雷斯波&middot;艾克特（J. Prespen Eckert）和物理学家约翰&middot;莫奇勒博士（John W. Mauchly） </p>
+            <p class="zpymain1_1">
+             <h class="zpyENIAC">
+              ENIAC
+             </h> 是一个庞然大物，它占地170平方米、重量30吨，共使用了18800只电子管、10000只电容、 7000只电阻，耗电140～150千瓦。ENIAC每秒可进行5000次加减运算，虽然其速度远不及现在最普通的微型计算机， 但它的问世却具有划时代的意义，标志着计算机时代的到来。在以后的60多年里，计算机及其相关技术的发展真可谓日新月异，是人类科技史上发展速度最快的学科。 </p>
+            <img src="./img/timg1.png" class="zpyeniac" />
+           </div>
+          </div>
+          <div class="swiper-slide background1_1_3">
+           <p class="zi1_1_3"> 从ENIAC诞生至今，计算机技术的发展速度相当“迅猛”。根据计算机所采用的主要元件，一将其发展分为四个阶段，相应的将计算机分为四代。 </p>
+          </div>
+          <div class="swiper-slide background1_1_4">
+           <p class="p-1-4-1"> 第一代计算机采用电子管作为逻辑元件。特点是速度低，但体积大、成本高、可靠性低，并且内存容量小。第一代计算机主要用于军事和科学计算。 </p>
+           <p class="p-1-4-2"> 第二代计算机采用晶体管代替电子管。晶体管计算机体积小、功能强并且可靠性强，而成本较低。与此同时，计算机软件有了较大发展， 出现了操作系统的前身—监控程序。 </p>
+           <p class="p-1-4-3"> 第三代计算机采用中小规模集成电路作为主要元件。体积更小、价格更低、可靠性更高、计算速度更快。软件方面，操作系统进一步完善。 </p>
+           <p class="p-1-4-4"> 第四代计算机采用大规模和超大规模集成电路。在系统结构方面发展了并行处理技术，在软件方面发展了数据库系统、分布式操作系统等， 而在应用方面迅速渗透到工业、教育和生活的各个领域。 </p>
+           <p class="p-1-4-5"> 第五代计算机又称新一代计算机或人工智能计算机。它是一个能把信息采集、 存储、处理、通信同人工智能结合在一起的智能计算机系统。 </p>
+          </div>
+          <!-- 第一课内容 -->
+         </div>
+        </div>
+       </div>
+       <!-- 第一章第一课 -->
+       <!-- 第一章第二课     -->
+       <div class="swiper-slide">
+        <div class="swiper-container" id="courses_1_2">
+         <div class="swiper-wrapper">
+          <!-- 第二课内容 -->
+          <div class="swiper-slide background_1_2">
+           <div class="mengban">
+            <p class="biaoti color_1">计算机<br />突出特点&nbsp;</p>
+            <div class="shuoming">
+             与其它计算工具相比，计算机具有运算速度快、精确度高、存储能力强、通用性强的特点，并且具有逻辑判断能力、自动功能、以及支持网络通信等功能特点。
+            </div>
+           </div>
+          </div>
+          <div class="swiper-slide">
+           <div class="hed1-2-2">
+            <div class="teas">
+             计算机的特点
+            </div> 与传统计算工具相比，电子计算机具有的突出的特点
+           </div>
+           <p class="up1-2-2"> 与其它计算工具相比，计算机具有运算速度快、精确度高、存储能力强、通用性强的特点，并且具有逻辑判断能力、自动功能、以及支持网络通信等功能特点。 </p>
+           <div class="left1-2-2">
+            <div class="zpy1-1">
+             运算速度快
+            </div>
+            <div class="zpyxxx">
+             &nbsp;&nbsp;计算机的运算部件采用的是电子器件，其运算速度是其它计算工具不能比拟的，且还在不断加快。
+            </div>
+            <div class="zpy1-1">
+             精确度高
+            </div>
+            <div class="zpyxxx">
+             &nbsp;&nbsp;较之传统计算工具，在计算机内部数值的表示方法是很独特的，这使得其有效数字的位数相当长，可达百位以上甚至更高，所以计算机的精确度非常高，同时其可靠性也很高。
+            </div>
+            <div class="zpy1-1">
+             强大的存储能力
+            </div>
+            <div class="zpyxxx">
+             &nbsp;&nbsp;计算机能把数据和程序以及计算结果存储起来，这是其区别于其它计算工具的重要特征。计算机能存储的数据包括数字、文本、图形、图像和声音等.
+            </div>
+           </div>
+           <img src="./dist/css/img/fuwuqi1.jpg" class="img1-2-2" />
+           <div class="right1-2-2">
+            <div class="zpy1-2">
+             自动功能
+            </div>
+            <div class="zpyxxv">
+             &nbsp;&nbsp;计算机内部的操作运算是根据人们预先编制的程序自动控制执行的，因此其工作过程完全自动化，不需要人的干预。
+            </div>
+            <div class="zpy1-2">
+             通用性强
+            </div>
+            <div class="zpyxxv">
+             &nbsp;&nbsp;计算机的通用性是其能够应用于各种领域的基础。任何复杂的任务都可以分解为基本的算术运算和逻辑操作，程序员把这些基本运算和操作按照一定规则写成适当的程序即可以完成各式各样的任务。
+            </div>
+            <div class="zpy1-2">
+             网络和通信
+            </div>
+            <div class="zpyxxv">
+             &nbsp;&nbsp;计算机网络一般由多台计算机、通信工作站和终端组成，其在通信方面显示出越来越巨大的潜力。依靠计算机网络可以进行信息交换和资源共享。
+            </div>
+           </div>
+          </div>
+          <!-- 第二课内容 -->
+         </div>
+        </div>
+       </div>
+       <!-- 第一章第二课-->
+       <!-- 第一章第三课     -->
+       <div class="swiper-slide">
+        <div class="swiper-container" id="courses_1_3">
+         <div class="swiper-wrapper">
+          <!-- 第三课内容 -->
+          <div class="swiper-slide background_1_3">
+           <div class="mengban">
+            <p class="biaoti color_2">计算机<br />奠基者们&nbsp;</p>
+            <div class="shuoming">
+             电子计算机是人类智慧的结晶，是科学发展的必然产物，但是没有天才的头脑和坚毅的精神就不会有今天蓬勃发展的计算机产业，让我们永远纪念那些为科技进步献身的人们。
+            </div>
+           </div>
+          </div>
+          <div class="swiper-slide">
+           <div class="main">
+            <div class="topWord">
+             <p><big>为计算机的诞生做出过杰出的贡献</big></p>
+             <br />
+             <p><small> 电子计算机是人类智慧的结晶，是科学发展的必然产物，但是没有天才的头脑和坚毅的精神就不会有今天蓬勃发展的计算机产业，让我们永远纪念那些为科技进步献身的人们。 </small></p>
+            </div>
+            <div class="personInt">
+             <div class="person1">
+              <div class="personImg1">
+               <img src="./img/babeiqi.png" alt="" />
+              </div>
+              <div class="personWord1">
+               <p class="personName">查尔斯&middot;巴贝奇</p>
+               <p class="personBir">(Charles Babbage 1792- 1871)</p>
+               <input type="button" value="点击这里查看人物介绍" onclick="firstClick();" class="personInfo" />
+              </div>
+              <p class="personBir">想出了计算机的雏形</p>
+             </div>
+             <div class="person2">
+              <div class="personImg2">
+               <img src="./img/ada.png" alt="" />
+              </div>
+              <div class="personWord2">
+               <p class="personName">阿达&middot;洛普雷斯</p>
+               <p class="personBir">(Ada Lovelace 1815-1852)</p>
+               <input type="button" value="点击这里查看人物介绍" onclick="secClick();" class="personInfo" />
+              </div>
+              <p class="personBir">计算机之母</p>
+             </div>
+             <div class="person3">
+              <div class="personImg3">
+               <img src="./img/tuling.png" alt="" />
+              </div>
+              <div class="personWord3">
+               <p class="personName">阿兰&middot;图灵</p>
+               <p class="personBir">(Alan Turing 1912-1954)</p>
+               <input type="button" value="点击这里查看人物介绍" onclick="thirdClick();" class="personInfo" />
+              </div>
+              <p class="personBir">计算机科学之父、人工智能之父</p>
+             </div>
+             <div class="person4">
+              <div class="personImg4">
+               <img src="./img/feng.png" alt="" />
+              </div>
+              <div class="personWord4">
+               <p class="personName">约翰&middot;冯&middot;诺依曼</p>
+               <p class="personBir">(John Von Nouma，1903-1957)</p>
+               <input type="button" value="点击这里查看人物介绍" onclick="fourClick();" class="personInfo" />
+              </div>
+              <p class="personBir">计算机之父</p>
+             </div>
+            </div>
+           </div>
+           <div class="footer">
+            <div class="footColor1"></div>
+            <div class="footColor2"></div>
+            <div class="footColor3"></div>
+            <div class="footColor4"></div>
+            <div class="footColor5"></div>
+           </div>
+          </div>
+          <!-- 第三课内容 -->
+         </div>
+        </div>
+       </div>
+       <!-- 第一章第三课-->
+       <div class="swiper-slide">
+        <div class="swiper-container" id="courses_1_4">
+         <div class="swiper-wrapper">
+          <!-- 第三课内容 -->
+          <div class="swiper-slide background_1_4">
+           <div class="mengban">
+            <p class="biaoti color_3">计算机<br />各种样式&nbsp;</p>
+            <div class="shuoming">
+             如今，计算机在人们生活的各个领域发挥着重要的作用。计算机也发展出了十分多的种类,让我带你了解下那些在我们身边发挥着重要作用的各种计算机
+            </div>
+           </div>
+          </div>
+          <div class="swiper-slide">
+           <div class="hed1-2-2">
+            <div class="teas">
+             各种规范的计算机
+            </div> 计算机的规模由一些主要技术指标来衡量，比如字长、运算速度、存储容量和外部设备等。
+           </div>
+           <p class="up1-2-2"> 巨型机：现在称为超级计算机或高性能计算机，是指目前速度最快、处理能力最强，并且容量最大、造价也最高的计算机。巨型机数量虽不多，却有重要和特殊的用途：在国防军事方面，可用于战略防御系统和航天测控系统等；在民用方面，可用于大型科学计算和大区域中长期天气预报等. </p>
+           <div class="leftup">
+            <img src="./img/xiaoxing.jpg" style="float:left " width="200px" height="250px;" />
+            <div class="h1-4-2">
+              小型机
+            </div> 是指性能和价格低于大型机但高于高档微型机的一种计算机。一般而言，小型机具有高运算处理能力、高可靠性、高服务性、高可用性等四大特点，主要用于工业自动控制、医疗设备中的数据采集等领域。
+           </div>
+           <div class="rightup">
+            <img src="./img/daxing.jpg" style="float:right" width="200px" height="250px;" />
+            <div class="h1-4-2">
+              大型机
+            </div> 大型机包括通常所说的大、中型计算机，本身并无准确的技术定义，这类计算机具有较高的运算速度和较大的存储容量，其特点是通用性强、综合处理能力强，并且覆盖面广，一般用于科研、数据处理或用作网络服务器，但随着微型机与网络技术的迅速发展，正在被高档微机所取代。
+           </div>
+           <div class="leftdown">
+            <img src="./img/weixing.jpg" style="float:left " width="200px" height="200px;" />
+            <div class="h1-4-2">
+              微型机
+            </div> 按外形和使用特点，微型机可分为台式微机和便携式微机（笔记本电脑、平板电脑、智能手机等）
+           </div>
+           <div class="rightdown">
+            <img src="./img/gongzuo.jpg" style="float:right" width="200px" height="200px;" />
+            <div class="h1-4-2">
+              工作站
+            </div> 是一种高档微机系统，跟普通微机相比其运算速度更快，通常配有容量很大的存储器和高分辨率的大屏幕显示器，主要用于专业的图像处理和计算机辅助设计等领域。
+           </div>
+          </div>
+          <!-- 第三课内容 -->
+         </div>
+        </div>
+       </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination" id="courses_1b"></div>
+      <!-- 第一章进度 -->
+     </div>
+    </div>
+    <div class="swiper-slide ">
+     <!-- 第二章  -->
+     <div class="swiper-container" id="chapeter_2">
+      <div class="swiper-wrapper ">
+       <div class="swiper-slide two">
+        <div class="dierzhang_2 color_1">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;未来
+         <br />发展趋势
+        </div>
+        <div class="nextbut_2" onclick="swChapter.slidePrev()">
+         <i class="fa fa-angle-left next_2 fa-5x"></i>
+        </div>
+        <div class="nextbut_1" onclick="swChapter.slideNext()">
+         <i class="fa fa-angle-right next_1 fa-5x"></i>
+        </div>
+       </div>
+       <!-- 第二章第一课 -->
+       <div class="swiper-slide">
+        <div class="swiper-container" id="courses_2_1">
+         <div class="swiper-wrapper">
+          <!-- 第一课内容 -->
+          <div class="swiper-slide ">
+           <div class="tpadMain">
+            <div class="tpadLeft">
+             <div class="tpadTitle">
+              <p class="tpadTitle_1">平板电脑的发展</p>
+              <p class="tpadTitle_2">一种便携式计算机</p>
+             </div>
+             <div class="tpadInfo">
+              <p>&nbsp;&nbsp;&nbsp;平板电脑是一种便携式计算机，一般采用小于10.4英寸液晶显示屏，屏幕带有触摸感应功能，具有手写识别和无线网络通信功能，包括集成键盘的“可变式平板电脑”（如图1.17所示）和外接键盘的“纯平板电脑”两种。平板电脑集移动商务、移动通信和移动娱乐于一体，比笔记本电脑有着更好的便携性，更出色的做工，更优秀的功耗控制，由于它采用与手机相似的操作系统，人们在使用时会潜意识地与手机进行对比，但平板电脑拥有较大的机身，它在性能上往往不会输于手机。</p>
+              <p>&nbsp;&nbsp;&nbsp;随着无线网络的普及，平板电脑将可以在城区和公共场所自由的移动上网，更方便的使用带宽和流量。在未来实现云计算机的网络环境里，用户数据存储和处理需求将在网络中实现，便携式移动终端的速度和多媒体表现力将成为用户的主要选择。</p>
+             </div>
+            </div>
+            <div class="tpadRight">
+             <div class="tpadRightDiv_1">
+              <p>越来越普及的</p>
+              <p>平板电脑</p>
+             </div>
+             <div class="tpadRightDiv"></div>
+             <img src="./img/pad.jpg" alt="" />
+            </div>
+           </div>
+          </div>
+          <!-- 第一课内容 -->
+         </div>
+        </div>
+       </div>
+       <!-- 第二章第一课 -->
+       <!-- 第二章第二课 -->
+       <div class="swiper-slide">
+        <div class="swiper-container" id="courses_2_2">
+         <div class="swiper-wrapper">
+          <!-- 第二课内容 -->
+          <div class="swiper-slide">
+           <div class="tphoneMain">
+            <div class="tpnhoneStra"></div>
+            <div class="tpnhone1">
+             <div class="tphoneTop">
+              <img src="./img/yingweida.png" alt="" />
+             </div>
+             <div class="tphoneMid"></div>
+             <div class="tpnhoneInfo">
+              <p><big>四核处理器</big></p>
+              <p><small>时代已经到来</small></p>
+              <p>2011年NVIDIA发布了新一代ARM处理器芯片Tegra3（正式名称 Kal-El），如图1.18所示。它是全球首款四核移动计算芯片，另外还引入了全新的协处理（companion core）内核，它的性能表现优于之前双核的Tegra芯片3倍，在多任务处理、网络浏览和应用表现流畅度上都有明显提升</p>
+             </div>
+            </div>
+            <div class="tpnhone2">
+             <div class="tphoneTop">
+              <img src="./img/NFC.jpeg" alt="" />
+             </div>
+             <div class="tphoneMid"></div>
+             <div class="tpnhoneInfo">
+              <p><big>支持近场通信技术</big></p>
+              <p><small>NFC</small></p>
+              <p>NFC技术能够逐渐取代信用卡来实现移动支付，用户只需拿着支持NFC的智能手机在支付设备旁一摇就能实现移动支付。近场通信（Near Field Communication,NFC）是一种短距高频的无线电技术，在13.56MHz频率运行于20厘米距离内。其传输速度有106 Kbit/秒、212 Kbit/秒或者424 Kbit/秒三种。</p>
+             </div>
+            </div>
+            <div class="tpnhone3">
+             <div class="tphoneTop">
+              <img src="./img/4g.jpeg" alt="" />
+             </div>
+             <div class="tphoneMid"></div>
+             <div class="tpnhoneInfo">
+              <p><big>支持4G网络</big></p>
+              <p><small>4G</small></p>
+              <p>4G是第四代移动通信及其技术的简称，是集3G与WLAN于一体并能够传输高质量视频图像以及图像传输质量与高清晰度电视不相上下的技术产品。4G系统能够以100Mbps的速度下载，比拨号上网快2000倍，上传的速度也能达到20Mbps，并能够满足几乎所有用户对于无线服务的要求。支持4G网络必将是未来手机的发展趋势。</p>
+             </div>
+            </div>
+            <div class="tpnhone4">
+             <div class="tphoneTop">
+              <img src="./img/5g.jpeg" alt="" />
+             </div>
+             <div class="tphoneMid"></div>
+             <div class="tpnhoneInfo">
+              <p><big>支持5G网络</big></p>
+              <p><small>5G</small></p>
+              <p>5G网络作为下一代移动通信网络，其最高理论传输速度可达每秒数十Gb，这比现行4G网络的传输速度快数百倍，整部超高画质电影可在1秒之内下载完成。随着5G技术的诞生，用智能终端分享3D电影、游戏以及超高画质（UHD）节目的时代已向我们走来。 </p>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <!-- 第二章第二课 -->
+      </div>
+      <!-- Add Pagination -->
+      <!-- 第二章进度 -->
+     </div>
+    </div>
+    <div class="swiper-slide ">
+     <!-- 第三章 -->
+     <div class="swiper-container" id="chapeter_3">
+      <div class="swiper-wrapper ">
+       <div class="swiper-slide three">
+        <div class="dierzhang color_2">
+          物联网
+         <br />云计算
+        </div>
+        <div class="nextbut_2" onclick="swChapter.slidePrev()">
+         <i class="fa fa-angle-left next_2 fa-5x"></i>
+        </div>
+        <div class="nextbut_1" onclick="swChapter.slideNext()">
+         <i class="fa fa-angle-right next_1 fa-5x"></i>
+        </div>
+       </div>
+       <!-- 第二章第一课 -->
+       <div class="swiper-slide">
+        <div class="swiper-container" id="courses_3_1">
+         <div class="swiper-wrapper">
+          <!-- 第一课内容 -->
+          <div class="swiper-slide fater1-3">
+           <div class="t1_3main">
+            <div class="t1_3Title">
+             <div class="t1_3TitleLogo"></div>
+             <div class="t1_3Title1">
+              <p>&nbsp;什么是物联网</p>
+              <small>&nbsp;&nbsp;“物联网”就是物物相连的互联网</small>
+             </div>
+             <p></p>
+            </div>
+            <div class="t1_3TInfo1">
+             <p>&nbsp;&nbsp;&nbsp;“物联网”就是物物相连的互联网，是通过射频识别（RFID）、红外感应器、全球定位系统、激光扫描器等信息传感设备，按约定的协议，把任何物品与互联网相连接，进行信息交换和通信，以实现对物品的智能化识别、定位、跟踪、监控和管理的一种网络，如图1.21所示。国际电信联盟于2005年的报告曾描绘“物联网”时代的图景：当司机出现操作失误时汽车会自动报警；公文包会提醒主人忘带了什么东西；衣服会“告诉”洗衣机对颜色和水温的要求等等。物联网在物流领域内的应用则比如：一家物流公司应用了物联网系统的货车，当装载超重时，汽车会自动告诉你超载了，并且超载多少，但空间还有剩余，告诉你轻重货怎样搭配；当搬运人员卸货时，一只货物包装可能会大叫“你扔疼我了”，或者说“亲爱的，请你不要太野蛮，可以吗？”；当司机在和别人扯闲话时，货车会装作老板的声音怒吼“笨蛋，该发车了！” </p>
+            </div>
+            <hr />
+            <div class="t1_3Bottom">
+             <div class="t1_3Img">
+              <img src="./img/wulianwang.jpeg" alt="物联网" />
+             </div>
+             <div class="t1_3FInfo2_1">
+              <div class="t1_3FInfo2_1Top">
+               <big>物联网</big>
+               <p>The Internet of things</p>
+              </div>
+              <div class="t1_3FInfo2_1Bottom">
+               <p>物联网把新一代IT技术充分运用在各行各业之中.</p>
+              </div>
+             </div>
+             <div class="t1_3FInfo2_2">
+              <p>&nbsp;&nbsp;&nbsp;具体地说，就是把感应器嵌入和装备到电网、铁路、桥梁、隧道、公路、建筑、供水系统、大坝、油气管道等各种物体中，然后将“物联网”与现有的互联网整合起来，实现人类社会与物理系统的整合，在这个整合的网络当中，存在能力超级强大的中心计算机群，能够对整合网络内的人员、机器、设备和基础设施实施实时的管理和控制，在此基础上，人类可以以更加精细和动态的方式管理生产和生活，达到“智慧”状态，提高资源利用率和生产力水平，改善人与自然间的关系。</p>
+             </div>
+            </div>
+           </div>
+          </div>
+          <!-- 第一课内容 -->
+         </div>
+        </div>
+       </div>
+       <!-- 第二章第一课 -->
+       <!-- 第二章第二课 -->
+       <div class="swiper-slide">
+        <div class="swiper-container" id="courses_3_2">
+         <div class="swiper-wrapper">
+          <!-- 第二课内容 -->
+          <div class="swiper-slide fater1-3">
+           <div class="t1_3main">
+            <div class="t1_3Title">
+             <div class="t1_3TitleLogo"></div>
+             <div class="t1_3Title1">
+              <p>&nbsp;什么是云计算</p>
+              <small>&nbsp;&nbsp;云计算是一种基于因特网的超级计算模式</small>
+             </div>
+             <p></p>
+            </div>
+            <div class="t1_3TInfo1">
+             <p>&nbsp;&nbsp;&nbsp;你是否曾想到，电脑可能会“消失”，不用背着笔记本出差，你的家里也没有电脑需要维修。是云计算改变了这一切。尽管云计算的兴起只是近两年的事，但其来势非常凶猛。那么，什么是云计算？它将会怎样改变我们的生活？ </p>
+             <p>&nbsp;&nbsp;&nbsp;云计算是一种基于因特网的超级计算模式，在远程的数据中心，几万甚至几千万台电脑和服务器连接成一片。因此，云计算甚至可以让你体验每秒超过10万亿次的运算能力，如此强大的运算能力几乎无所不能。云其实是网络、互联网的一种比喻说法。如图1.22所示，云计算会改变现在电脑“机箱+显示器”的模式。云计算虽然是近两年才兴起，但很多属于其范畴的应用早已实现，比如我们最熟悉的电子邮件。作为用户，我们既不关心、也不知道我们的电子邮件到底被存放在哪一个城市、哪一台计算中，我们知道的是，只要能上网，无论在北京、上海或是纽约，我们都能进入邮箱、收发邮件。这使得我们没有必要在现实中去购买或租用一个真正的实体邮箱。&nbsp;</p>
+            </div>
+            <hr />
+            <div class="t1_3Bottom">
+             <div class="t1_3Img">
+              <img src="./img/yunjisuan.png" alt="物联网" />
+             </div>
+             <div class="t1_3FInfo2_1">
+              <div class="t1_3FInfo2_1Top">
+               <big>云计算</big>
+               <p>Cloud Computing</p>
+              </div>
+              <div class="t1_3FInfo2_1Bottom">
+               <p>虚拟化是云计算应用的重要方面。</p>
+              </div>
+             </div>
+             <div class="t1_3FInfo2_2">
+              <p>&nbsp;&nbsp;&nbsp;虚拟化是云计算应用的重要方面。比如，企业拥有一台超级计算机，可以将其分做1000台“虚拟计算机”，租给用户。通过网络，用户就可以使用这台“计算机”，家里的电视、随身携带的移动电视、手机的屏幕，都可以作为显示器使用，而不必再去购买一台实体计算机带着。像电子邮件一样，不管在任何地方，只要有网络，这台虚拟计算机便始终在身边。目前，“云计算”实现的各种新服务越来越受到人们关注，其应用产品也已深入人们的日常生活。</p>
+             </div>
+            </div>
+           </div>
+          </div>
+          <!-- 第二课内容 -->
+         </div>
+        </div>
+       </div>
+       <!-- 第二章第二课 -->
+      </div>
+      <!-- Add Pagination -->
+      <!-- 第二章进度 -->
+     </div>
+    </div>
+    <div class="swiper-slide zbt">
+     <div class="break-1-1" onclick="swChapter.slidePrev()">
+      返回
+     </div>
+     <div class="container" id="main">
+      <div class="demo">
+       <div id="quiz_area"></div>
+      </div>
+     </div>
+     <script src="./jquery-3.2.0.min.js"></script>
+     <script src="./dist/js/quiz.js"></script>
+     <script>
+                    var init = {
+            'questions': [
+                {
+                    'question': '世界上第一台电子数字计算机研制成功的时间是哪年？',
+                    'answers': ['A &nbsp;&nbsp;1936', 'B &nbsp;&nbsp;1946', 'C &nbsp;&nbsp;1956', 'D &nbsp;&nbsp;1975'],
+                    'correctAnswer': 1
+                },
+                {
+                    'question': '世界上第一台计算机取名为?',
+                    'answers': ['A &nbsp;&nbsp;UNIVAC', 'B &nbsp;&nbsp;EDSAC', 'C &nbsp;&nbsp;ENIAC', 'D &nbsp;&nbsp;EDVAC'],
+                    'correctAnswer': 3
+                },
+                {
+                    'question': '计算机的发展阶段通常是按计算机所采用的什么来划分的?',
+                    'answers': ['A &nbsp;&nbsp;内存容量', 'B &nbsp;&nbsp;逻辑部件', 'C &nbsp;&nbsp;程序设计语言', 'D &nbsp;&nbsp;操作系统'],
+                    'correctAnswer': 3
+                },
+                {
+                    'question': '不属于微型计算机的是？',
+                    'answers': ['A &nbsp;&nbsp;平板电脑', 'B &nbsp;&nbsp;台式机', 'C &nbsp;&nbsp;笔记本电脑', 'D &nbsp;&nbsp;打印机'],
+                    'correctAnswer': 2
+                },
+                {
+                    'question': '用于航天、气象等领域的计算机属于？',
+                    'answers': ['A &nbsp;&nbsp;巨型机', 'B &nbsp;&nbsp;小型机', 'C &nbsp;&nbsp;微型机', 'D &nbsp;&nbsp;工作站'],
+                    'correctAnswer': 2
+                },
+                {
+                    'question': '在计算机的分类中，目前使用的个人计算机属于？',
+                    'answers': ['A &nbsp;&nbsp;巨型机', 'B &nbsp;&nbsp;小型机', 'C &nbsp;&nbsp;微型机', 'D &nbsp;&nbsp;工作站'],
+                    'correctAnswer': 2
+                }
+            ]
+        };
+
+                        $(function() {
+                            $('#quiz_area').jquizzy({
+                                questions: init.questions
+                            });
+                        });
+                    </script>
+    </div>
+   </div>
+   <!-- Add Pagination -->
+   <div class="swiper-pagination" id="chapterb"></div>
+  </div>
+  <!-- Swiper JS -->
+  <script src="./dist/js/swiper.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swChapter = new Swiper('#chapter', {
+
+        onlyExternal : true,
+        // paginationClickable: true,
+        grabCursor:false,
+         effect : 'fade',
+        //shortSwipes : false,
+    });
+    var swChapter_1 = new Swiper('#chapeter_1', {
+        pagination: '#chapeter_1b',
+        paginationClickable: true,
+        direction: 'vertical',
+        // shortSwipes : false,
+        // effect : 'cube',
+        // touchRatio :-1,
+        // initialSlide :3,
+
+    });
+    var swchapeter_2 = new Swiper('#chapeter_2', {
+        pagination: '#chapeter_2b',
+        paginationClickable: true,
+        direction: 'vertical',
+        // shortSwipes : false,
+        // effect : 'cube',
+        // touchRatio :-1,
+        // initialSlide :3,
+
+    });
+    var swchapeter_2 = new Swiper('#chapeter_3', {
+        pagination: '#chapeter_3b',
+        paginationClickable: true,
+        direction: 'vertical',
+        // shortSwipes : false,
+        // effect : 'cube',
+        // touchRatio :-1,
+        // initialSlide :3,
+
+    });
+    var swcourses_1_1 = new Swiper('#courses_1_1', {
+        // pagination: '#text1b',
+        paginationClickable: true,
+        // direction: 'vertical',
+        // touchRatio :-1,
+        // effect : 'cube',
+        // initialSlide :3,
+    });
+    var swcourses_1_2 = new Swiper('#courses_1_2', {
+        // pagination: '#text1b',
+        paginationClickable: true,
+        // direction: 'vertical',
+        // touchRatio :-1,
+        // effect : 'cube',
+        // initialSlide :3,
+    });
+    var swcourses_1_3 = new Swiper('#courses_1_3', {
+        // pagination: '#text1b',
+        paginationClickable: true,
+        // direction: 'vertical',
+        // touchRatio :-1,
+        // effect : 'cube',
+        // initialSlide :3,
+    });
+    var swcourses_1_3 = new Swiper('#courses_1_4', {
+        // pagination: '#text1b',
+        paginationClickable: true,
+        // direction: 'vertical',
+        // touchRatio :-1,
+        // effect : 'cube',
+        // initialSlide :3,
+    });
+    var swcourses_2_1 = new Swiper('#courses_2_1', {
+        // pagination: '#text1b',
+        paginationClickable: true,
+        // direction: 'vertical',
+        // touchRatio :-1,
+        // effect : 'cube',
+        // initialSlide :3,
+    });
+    var swcourses_2_2 = new Swiper('#courses_2_2', {
+        // pagination: '#text1b',
+        paginationClickable: true,
+        // direction: 'vertical',
+        // touchRatio :-1,
+        // effect : 'cube',
+        // initialSlide :3,
+    });
+    var swcourses_3_1 = new Swiper('#courses_3_1', {
+        // pagination: '#text1b',
+        paginationClickable: true,
+        // direction: 'vertical',
+        // touchRatio :-1,
+        // effect : 'cube',
+        // initialSlide :3,
+    });
+    var swcourses_3_2 = new Swiper('#courses_3_2', {
+        // pagination: '#text1b',
+        paginationClickable: true,
+        // direction: 'vertical',
+        // touchRatio :-1,
+        // effect : 'cube',
+        // initialSlide :3,
+    });
+    </script>
+  <script type="text/javascript" src="./dist/js/intro.js"></script>
+ </body>
+</html>

@@ -1,0 +1,83 @@
+.tpadMain {
+    height: 768px;
+    width: 1024px;
+    background-color: white;
+}
+.tpadLeft {
+    height: 700px;
+    width: 300px;
+    /*border: 1px solid black;*/
+    margin-left: 30px;
+    margin-top: 20px;
+    float: left;
+}
+.tpadTitle {
+    height: 150px;
+    width: 300px;
+    /*border: 1px solid black;*/
+}
+.tpadTitle_1 {
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:40px;
+    font-weight:normal;
+    color: #31c2d8;
+}
+.tpadTitle_2 {
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:20px;
+    font-weight:normal;
+    color: #756f6f;
+    text-align: center;
+}
+.tpadInfo {
+    height: 400px;
+    width: 300px;
+    /*border: 1px solid black;*/
+    font-size:17px;
+    margin-top: 10px;
+    color: #756f6f;
+}
+ .tpadRight {
+     height: 700px;
+     width: 650px;
+     /*border: 1px solid black;*/
+     margin-left: 10px;
+     margin-top: 20px;
+     float: left;
+ }
+ .tpadRightImg {
+     height: 700px;
+     width: 650px;
+     margin-left: 10px;
+     margin-top: 20px;
+     float: left;
+ }
+ .tpadRightDiv_1 {
+     width: 650px;
+     height: 300px;
+     margin-top: 400px;
+     z-index: 100;
+     position: absolute;
+ }
+ .tpadRightDiv {
+     width: 650px;
+     height: 300px;
+     margin-top: 400px;
+     opacity:0.6;
+     background-color: #31c2d8;
+     z-index: 99;
+     position: absolute;
+ }
+ .tpadRightDiv_1>p {
+     text-align: right;
+     font-family:Arial,Helvetica,sans-serif;
+     font-size:60px;
+     font-weight:normal;
+     color: #f6faf9;
+     margin-top: 80px;
+     line-height: 15px;
+ }
+ .tpadRight>img {
+     height: 700px;
+     width: 650px;
+ }
